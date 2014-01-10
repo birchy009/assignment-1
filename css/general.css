@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport { width: device-width: scale:1;}
+@-ms-viewport { width: device-width: scale:1;}
+@-o-viewport { width: device-width: scale:1;}
+@-webkit-viewport { width: device-width: scale:1;}
+@viewport { width: device-width: scale:1;}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+html, body {
+	width: 100%;
+	text-align: center;
+}
+
+header {
+	z-index: 2;
+	top: 0rem;
+	height: 6rem;
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+}
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-top: 1rem;
+	line-height: 2rem;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 3.5rem;
+	top: 7.5rem;
+}
+
+img.links {
+	width: 90%;
+	max-width: 240px;
+	margin: 0.5rem auto;
+	display: block;
+}
+
+.billboard {
+	max-width: 400px;
+	height: 12rem;
+	color: #fff;
+	margin: 1.5rem auto 3rem;
+	padding: 1.5rem 5%;
+	position: relative;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+img {
+	width: 100%;
+	border: 2px solid rgba(0,0,0,1);
+	border-radius: 10px;
+}
+
+table {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.charts {
+	position: relative;
+}
+
+th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	vertical-align: middle;
+	min-width: 80px;
+}
+
+td {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.15rem;
+	font-size: 0.9rem;
+	vertical-align: middle;
+	min-width: 80px;
+}
+
+.public {
+	/*background-color:#9BE992;*/
+	background-color:#666;
+	color: #fff;
+}
+
+.lane {
+	/*background-color:#FBFF64;*/
+	background-color:#999;
+}
+
+.preschool {
+	/*background-color:#96E9E3;*/
+	background-color: #D3D3D3;
+	font-size: 0.8rem;
+}
+
+.family {
+	/*background-color:#FFB368;*/
+	background-color:#2B2B2B;
+	color: #fff;
+}
+
+header a:link,
+header a:visited,
+main a:link,
+main a:visited {
+	color: #939393;
+}
+
+#footer a:link,
+#footer a:visited {
+	color:#fff;
+}
+
+#footer {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	position: fixed;
+	width:100%;
+ 	z-index: 3;
+	padding-top: 0.25rem;
+ 	height: 3.5rem;
+	font-size: 0.7rem;
+	line-height: 0.85rem;
+	bottom: 0;
+}
+
+.phone {
+	font-weight: bold;	
+}
+
+.email {
+	font-style: italic;
+}
